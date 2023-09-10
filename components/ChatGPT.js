@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, FlatList, TextInput, TouchableOpacity } from 'react-native';
 import axios from 'axios';
 
-//const apiKey = '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';
+
 const apiURL = 'https://api.openai.com/v1/engines/text-davinci-002/completions';
 
 const ChatMessage = ({ type, text }) => (
