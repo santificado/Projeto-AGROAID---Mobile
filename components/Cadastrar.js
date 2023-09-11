@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import axios from 'axios';
-
+ 
 const api = axios.create(
   { baseURL: "https://projeto-ivern-default-rtdb.firebaseio.com/" }
 );

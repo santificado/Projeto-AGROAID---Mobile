@@ -4,7 +4,7 @@ import {
   FlatList,
   Text,
   TextInput,
-  View,
+  View, 
   StyleSheet,
   ScrollView,
 } from 'react-native';

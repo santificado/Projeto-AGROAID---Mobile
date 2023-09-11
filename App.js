@@ -7,7 +7,7 @@ import CustomButton from './components/CustomButton';
 import ChatGPT from './components/ChatGPT';
 import Cadastro from './components/Cadastrar';
 import Listagem from './components/Listar';
-import axios from 'axios';
+import axios from 'axios'; 
 import RegExp from 'regexp';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

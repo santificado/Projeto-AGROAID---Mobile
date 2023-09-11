@@ -4,7 +4,7 @@ import axios from 'axios';
 
 //const apiKey = '';
 const apiURL = 'https://api.openai.com/v1/engines/text-davinci-002/completions';
-
+ 
 const ChatMessage = ({ type, text }) => (
   <View style={styles.messageContainer}>
     <Text style={{ fontWeight: 'bold', color: type === 'user' ? 'green' : 'red' }}>{type === 'user' ? 'Você: ' : 'Ivern: '}</Text>
@@ -12,7 +12,7 @@ const ChatMessage = ({ type, text }) => (
   </View>
 );
 
-const ChatGPT = () => {
+const ChatGPT = () => { 
   const [data, setData] = useState([]);
   const [textInput, setTextInput] = useState('');
   const [error, setError] = useState('');
