@@ -2,7 +2,7 @@
  
 <h2> Solução desenvolvida para o projeto Global Solution do primeiro semestre com a criação de uma API RESTful que ajude no combate a fome com o uso de inteligência artificial</h2>
 
-<h2> Link do Snack: https://snack.expo.dev/@henrique_freitas/global-solution--projeto-ivern </h2>
+<h2> Link do Snack: https://snack.expo.dev/@santificado/global-solution--projeto-ivern </h2>
  
 
 <h2 align="center">Endpoints</h2>
